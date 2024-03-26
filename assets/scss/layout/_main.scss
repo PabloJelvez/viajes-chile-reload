@@ -1,0 +1,28 @@
+.quienes-somos{
+    &__wrapper-image{
+        width: 50%;
+    }
+    &__image{
+        width: 90%;
+        border-radius: 15px;
+        height: auto;
+    }
+    &__wrapper-text{
+        width: 50%;
+    }
+}
+
+.destacados{
+    &__wrapper-cards{
+        gap: 20px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .quienes-somos{
+        &__wrapper-text{
+            width: 100%;
+        }
+    }
+ }

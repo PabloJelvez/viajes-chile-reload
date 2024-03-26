@@ -1,0 +1,10 @@
+$custom-colors: (
+  "custom-primary": $color1,
+  "custom-adl": $adl,
+  "custom-blue": $custom-blue,
+  "custom-blue-light": $custom-blue-light,
+  "custom-aqua": $custom-aqua,
+  "custom-aqua-light": $custom-aqua-light,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);

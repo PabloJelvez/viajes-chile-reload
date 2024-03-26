@@ -1,0 +1,18 @@
+.card{
+    padding:0;
+    border: 1px solid black;
+    &__image{
+        height: 100%;
+    } 
+ 
+}
+.card-footer{
+    &__wrapper-icon{
+        width: 50%;
+    }
+    &__wrapper-price{
+        width: 50%;
+        text-align: end;
+    }
+
+}

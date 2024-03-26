@@ -1,0 +1,14 @@
+.carousel{
+    &__image{
+        max-height: 500px;
+        border-radius: 15px;
+        aspect-ratio: 121/81;
+    }
+}
+ @media (max-width: 576px){
+    .carousel{
+        &__image{
+            height: 300px;
+        }
+    }
+ }
